@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "remote-controller"
+version = "0.1.0"
+description = "Remote controller client and server tools for robot control"
+readme = "README.md"
+authors = [{name = "Huaqing Li"}]
+license = {file = "LICENSE"}
+requires-python = ">=3.10"
+dependencies = [
+    "numpy",
+    "pin",
+]
+
+[project.optional-dependencies]
+docs = [
+    "sphinx",
+    "furo",
+]
+
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+remote_controller = [
+    "assets/panda/*.urdf",
+    "assets/meshes/collision/*.stl",
+    "assets/meshes/visual/*.dae",
+]

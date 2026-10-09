@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+dist/
+build/
+docs/build/
+
+
+# C++ / CMake
+cpp_server/build/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+compile_commands.json
+*.o
+
+# Local machine / robot config
+config/remote_controller.env
+!config/remote_controller.example.env
+
+# Logs and local editor files
+*.log
+examples/output/
+.codex/
+.codex
+.DS_Store
+.vscode/
+.idea/
