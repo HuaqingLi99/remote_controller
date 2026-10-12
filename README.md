@@ -2,7 +2,7 @@
 
 ## Project Attribution
 
-This project was developed by **Huaqing Li (go98niv)** as part of his
+This project was developed by **Huaqing Li ** as part of his
 **Ingenieurpraxis**, under the supervision of **Yangsong Wu**.
 
 ## License
